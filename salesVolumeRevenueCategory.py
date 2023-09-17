@@ -1,5 +1,6 @@
 import pandas as pd # for dataframe
 import matplotlib.pyplot as plt # for visualization
+import seaborn as sns
 
 #import data
 olist_customer = pd.read_csv("C:\\Users\\olistCustomer.csv")
