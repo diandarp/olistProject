@@ -1,3 +1,7 @@
+import pandas as pd # for dataframe
+import matplotlib.pyplot as plt # for visualization
+import seaborn as sns
+
 # merge product ordered df with order review to show average review in per category of product
 product_ordered_review = product_ordered.merge(olist_order_review, on='order_id', how='inner')
 product_ordered_review
