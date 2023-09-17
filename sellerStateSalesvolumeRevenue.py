@@ -1,3 +1,7 @@
+import pandas as pd # for dataframe
+import matplotlib.pyplot as plt # for visualization
+import seaborn as sns
+
 # merge to data and stored df to seler_city_order
 seller_city_order = olist_sellers.merge(olist_order_items, on='seller_id', how='inner')
 seller_city_order
